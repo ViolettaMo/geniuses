@@ -1,0 +1,149 @@
+body {
+    background-color: #F4F7F9;
+}
+
+.basic{
+    display: flex;
+    justify-content: center;
+    margin:5%;
+    font-family: Helvetica,'Times New Roman', Times, serif;
+    
+}
+
+.fourthpart{
+    background-color: white;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 20px;
+    width: 50%;
+    flex-shrink: 0;
+}
+
+
+
+.firstcontent{
+    color:#2D3748;
+    position: center;
+}
+.firsttext{
+    background-color: #F8F9FA;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.name{
+    color:#718096;
+}
+.firstdecoration{
+    color:#A0AEC0;
+    padding: 20px;
+}
+
+.img{
+    max-width: 5%;
+    max-height: 5%;
+    width: 20px;
+    height: 20px;
+}
+
+.boldtext{
+    padding: 0px 8px;
+}
+
+.delete{
+    color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.fifthpart{
+    background-color: white;
+    border-radius: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.calendar {
+    margin-top: 20px;
+}
+
+.news{
+    color:rgb(167, 166, 166);
+    
+}
+
+.transaction{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news1{
+    color:rgb(167, 166, 166);
+}
+
+
+.plusdiv{
+    
+    vertical-align: middle;  
+    text-align: center; 
+    line-height: 70px;  
+}
+
+.plus{
+    color: rgb(125, 219, 88);
+    
+}
+
+
+.minusdiv{
+    display:table-cell; 
+    text-align:center;
+    vertical-align: middle;
+    line-height: 70px; 
+}
+
+.minus{
+    color: red;
+}
+
+
+
+
+
+.banks{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.company div img {
+    margin-top: 40px;
+}
+
+/* .lowering {
+    color: red;
+    border-radius: 100%;
+    border: 2px solid red;
+    width: 40px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align:center;
+    margin-top: 40px;
+} */
