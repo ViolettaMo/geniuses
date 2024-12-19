@@ -56,7 +56,7 @@ body {
     height: 20px;
 }
 
-.boldtext{
+.deletetext{
     padding: 0px 8px;
 }
 
@@ -93,12 +93,12 @@ body {
     justify-content: space-between;
 }
 
-.news1{
+.latestnews{
     color:rgb(167, 166, 166);
 }
 
 
-.plusdiv{
+.addition{
     
     vertical-align: middle;  
     text-align: center; 
@@ -111,7 +111,7 @@ body {
 }
 
 
-.minusdiv{
+.decrease{
     display:table-cell; 
     text-align:center;
     vertical-align: middle;
