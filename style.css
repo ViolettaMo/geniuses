@@ -22,6 +22,7 @@ body {
     margin-right: 20px;
     width: 50%;
     flex-shrink: 0;
+    box-shadow: 0px 5px 10px 0px rgba(98, 98, 98, 0.5); 
 }
 
 
@@ -33,16 +34,11 @@ body {
 }
 
 .firsttext{
+    display: flex;
+    justify-content: space-between;
     background-color: #F8F9FA;
     border-radius: 5%;
-    display: flex;
-    
-    margin: 10px 0px;
-
-    
-
-    flex-wrap: wrap;
-    align-content: space-evenly;
+    margin: 10px 0px; 
 }
 
 .name{
@@ -80,6 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(98, 98, 98, 0.5); 
 }
 
 .calendar {
