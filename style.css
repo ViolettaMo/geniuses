@@ -1,0 +1,77 @@
+.Sidebar_block{
+  padding: 0px;
+  margin:37px 0px 0px 20px;
+  font-family: 'Helvetica', 'Inter','Neu Haas Grotesk', sans-serif;
+  width:265px;
+  height:727px;
+  background-color:#FFFFFF;
+  border:1px solid #D1D1D1;
+  border-radius:20px;
+  font-style: bold;
+}
+.Sidebar_block_menu{
+  padding:0px 0px 8px 0px;
+  margin:11px 24px 18px 21px;
+  width:220px;
+  height:54px;
+  
+  border:1px solid #D1D1D1;
+  border-radius:8px;
+  background-color:#FFFFFF;
+  color:#2D3748;
+  text-align: left;
+  font-size:12px;
+}
+.Sidebar_block_menu_two{
+  padding:0px 0px 8px 0px;
+  margin:0px 24px 30px 45px;
+  width:px;
+  height:18px;
+  border:none;
+  background-color:#FFFFFF;
+  color:#A0AEC0;
+  text-align: left;
+  font-size:12px;
+}
+.Sidebar_block_icon{
+  padding:0px 0px 0px 0px;
+  margin: 8px 12px 0px 16px;
+  width:30px;
+  height:30px;
+}
+.Sidebar_block_icon_two{
+  padding:0px 0px 0px 0px;
+  margin: 0px 19px 0px 0px;
+  width:15px;
+  height:15px;
+}
+.Sidebar_block_menu_text{
+  padding:0px 0px 0px 0px;
+  margin: 18px 0px 30px 38px;
+  font-size:12px;
+  text-color:#2D3748;
+}
+.Sidebar_block_need-help_icon{
+  padding:0px 0px 0px 0px;
+  margin: 39px 0px 18px 51px;
+  width:165px;
+  height:117px;
+}
+.Sidebar_block_need-help_text{
+  padding:0px 0px 0px 0px;
+  margin: 0px 0px 38px 78px;
+  font-size:14px;
+  text-color:#2D3748;
+}
+.Sidebar_block_need-help{
+  padding:3px 0px 0px 0px;
+  margin:0px 0px 0px 40px;
+  width:186px;
+  height:35px;
+  border:none;
+  border-radius:8px;
+  background-color:#3182CE;
+  color:#FFFFFF;
+  text-align: center;
+  font-size:10px;
+}
