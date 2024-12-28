@@ -1,4 +1,157 @@
 
+body {
+    background-color: #F4F7F9;
+    
+}
+
+
+
+.basic{
+    display: flex;
+    justify-content: center;
+    margin:5%;
+    font-family: Helvetica,'Times New Roman', Times, serif;
+    
+}
+
+.fourthpart{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 20px;
+    width: 50%;
+    flex-shrink: 0;
+    box-shadow: 0px 5px 10px 0px rgba(98, 98, 98, 0.5); 
+}
+
+
+
+.firstcontent{
+    color:#2D3748;
+    position: center;
+    margin-left: 3%;
+}
+
+.firsttext{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F9FA;
+    border-radius: 5%;
+    margin: 10px 0px; 
+}
+
+.name{
+    color:#718096;
+}
+.firstdecoration{
+    color:#A0AEC0;
+    padding: 20px;
+}
+
+.img{
+    max-width: 5%;
+    max-height: 5%;
+    width: 20px;
+    height: 20px;
+}
+
+.deletetext{
+    padding: 0px 8px;
+}
+
+.delete{
+    color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.fifthpart{
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(98, 98, 98, 0.5); 
+}
+
+.calendar {
+    margin-top: 20px;
+}
+
+.news{
+    color:rgb(167, 166, 166);
+    
+}
+
+.transaction{
+    display: flex;
+    justify-content: space-between;
+}
+
+.latestnews{
+    color:rgb(167, 166, 166);
+}
+
+
+.addition{
+    
+    vertical-align: middle;  
+    text-align: center; 
+    line-height: 70px;  
+}
+
+.plus{
+    color: rgb(125, 219, 88);
+    
+}
+
+
+.decrease{
+    display:table-cell; 
+    text-align:center;
+    vertical-align: middle;
+    line-height: 70px; 
+}
+
+.minus{
+    color: red;
+}
+
+
+
+
+
+.banks{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.company div img {
+    margin-top: 40px;
+}
+
+
+@media(max-width: 390px){
+    .firstcontent{
+        font-size: 20px;
+    }
+}
+
+
 @font-face {
     font-family: Arial, Helvetica, sans-serif;
     src: format();
@@ -254,5 +407,6 @@ footer p {
   text-align: center;
   font-size:10px;
 }
+
 
 
