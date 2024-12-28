@@ -1,4 +1,68 @@
 
+
+section{
+display: flex;
+}
+h2{
+    padding-right: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;  
+}
+th, td {
+  
+    padding: 10px;
+   
+    text-align: start;
+}
+button {
+    padding: 15px 25px;
+    background-color: white;
+    border:1px solid rgb(63, 116, 155);
+    color: rgb(63, 116, 155);
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:rgb(63, 116, 155);
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 25px;
+    width: 45%;
+
+}
+.ff{
+    color:rgb(138, 152, 155);
+    font-size: 15px;
+}
+img{
+    width: 18px;
+}
+
+body{
+    font-family:url(Helvetica/helvetica_regular.otf) ;
+}
+.price{
+    font-size:23px;
+   
+}
+.name{
+    font-size: 18px;
+}
+.ogo{
+    color:rgb(138, 152, 155); 
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 200px;
+}
+
 body {
     background-color: #F4F7F9;
     
@@ -407,6 +471,7 @@ footer p {
   text-align: center;
   font-size:10px;
 }
+
 
 
 
