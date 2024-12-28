@@ -1,3 +1,4 @@
+
 body {
     background-color: #F4F7F9;
     
@@ -149,3 +150,263 @@ body {
         font-size: 20px;
     }
 }
+
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: format();
+}
+main.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    justify-content: space-around;
+}
+.card {
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    min-width: 250px;
+    box-sizing: border-box;
+}
+.card.credit-card{
+    background-image: url(../geniuses/card.png);
+    image-orientation: center;
+    color: white;
+    flex:1;
+    min-height: 200px;
+}
+.card-bg{
+    background-color:linear-gradient(#313860,#151928);
+    position: relative;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px 0;
+}
+.card-number {
+    font-size: 24px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 10;
+}
+.card-details{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+}
+.card-content {
+    text-align:left;
+    position: relative;
+    border-radius: 20px;
+}
+.card-icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.card-icon{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #2a8bf2;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card-icon.wallet{
+      background-image: url("../geniuses/зарплата.png");
+}
+.card-icon.paypal{
+    background-image: url("../geniuses/счет.png");
+}
+.card-title {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.card-subtitle{
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+
+}
+.card-summ{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 600;
+
+}
+
+
+header {
+    padding: 44px 32px;
+    background-color: #3182CE;
+    color: white;
+    font-family: "Helvetica";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+header p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 4px;
+}
+
+.right-container {
+    justify-content: space-between;
+    align-items: center;
+    width: 335px;
+    display: flex;
+    flex-direction: row;   
+}
+
+.search {
+    border: 0px;
+    border-radius: 8px;
+    background-color: white;
+    width: 199px;
+    padding: 12px 11px;
+} 
+
+.search input {
+    border: 0px;
+    padding-left: 12px;
+}
+
+.icn {
+    width: 12px;
+    height: 12px;
+}
+
+header ::placeholder {
+    color: #A0AEC0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;     
+}
+
+footer {
+    font-family: "Helvetica";
+    background-color: #F7FAFC;
+    color: #A0AEC0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px 32px;
+}
+footer p {
+    font-weight: 400;
+    font-size: 12px;  
+    margin-left: 36px;
+}
+
+.Sidebar_block{
+  padding: 0px;
+  margin:37px 0px 0px 20px;
+  font-family: 'Helvetica', 'Inter','Neu Haas Grotesk', sans-serif;
+  width:265px;
+  height:727px;
+  background-color:#FFFFFF;
+  border:1px solid #D1D1D1;
+  border-radius:20px;
+  font-style: bold;
+}
+.Sidebar_block_menu{
+  padding:0px 0px 8px 0px;
+  margin:11px 24px 18px 21px;
+  width:220px;
+  height:54px;
+  
+  border:1px solid #D1D1D1;
+  border-radius:8px;
+  background-color:#FFFFFF;
+  color:#2D3748;
+  text-align: left;
+  font-size:12px;
+}
+.Sidebar_block_menu_two{
+  padding:0px 0px 8px 0px;
+  margin:0px 24px 30px 45px;
+  width:px;
+  height:18px;
+  border:none;
+  background-color:#FFFFFF;
+  color:#A0AEC0;
+  text-align: left;
+  font-size:12px;
+}
+.Sidebar_block_icon{
+  padding:0px 0px 0px 0px;
+  margin: 8px 12px 0px 16px;
+  width:30px;
+  height:30px;
+}
+.Sidebar_block_icon_two{
+  padding:0px 0px 0px 0px;
+  margin: 0px 19px 0px 0px;
+  width:15px;
+  height:15px;
+}
+.Sidebar_block_menu_text{
+  padding:0px 0px 0px 0px;
+  margin: 18px 0px 30px 38px;
+  font-size:12px;
+  text-color:#2D3748;
+}
+.Sidebar_block_need-help_icon{
+  padding:0px 0px 0px 0px;
+  margin: 39px 0px 18px 51px;
+  width:165px;
+  height:117px;
+}
+.Sidebar_block_need-help_text{
+  padding:0px 0px 0px 0px;
+  margin: 0px 0px 38px 78px;
+  font-size:14px;
+  text-color:#2D3748;
+}
+.Sidebar_block_need-help{
+  padding:3px 0px 0px 0px;
+  margin:0px 0px 0px 40px;
+  width:186px;
+  height:35px;
+  border:none;
+  border-radius:8px;
+  background-color:#3182CE;
+  color:#FFFFFF;
+  text-align: center;
+  font-size:10px;
+}
+
+
+
