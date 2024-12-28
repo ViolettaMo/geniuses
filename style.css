@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("../geniuses/Helvetica/helvetica_regular.otf") format("opentype"), 
+    url("../geniuses/Helvetica/helvetica_bold.otf") format("opentype"), 
+    url("../geniuses/Helvetica/helvetica_light.otf") format("opentype");
+}
+
 *{
     margin: 0px;
     font-family: Helvetica,'Times New Roman', Times, serif;
@@ -92,7 +99,7 @@ footer p {
   background-color:#FFFFFF;
   border:1px solid #D1D1D1;
   border-radius:20px;
-  font-style: bold;
+  font-weight: 400;
 }
 .Sidebar_block_menu{
   padding:0px 0px 8px 0px;
@@ -169,25 +176,23 @@ footer p {
 
 
 
-/*
-section{
-display: flex;
-}
-h2{
+
+
+.bills h2{
     padding-right: 300px;
 }
 
-table {
+.bills {
     border-collapse: collapse;
     margin: 20px auto;  
 }
-th, td {
+.bills th td {
   
     padding: 10px;
    
     text-align: start;
 }
-button {
+.bills button {
     padding: 15px 25px;
     background-color: white;
     border:1px solid rgb(63, 116, 155);
@@ -195,7 +200,7 @@ button {
     border-radius: 7px;
     cursor: pointer;
 }
-button:hover {
+.bills button:hover {
     background-color:rgb(63, 116, 155);
 }
 .block{
@@ -212,13 +217,10 @@ button:hover {
     color:rgb(138, 152, 155);
     font-size: 15px;
 }
-img{
+.bills img{
     width: 18px;
 } 
 
-body{
-    font-family:url(Helvetica/helvetica_regular.otf) ;
-}
 .price{
     font-size:23px;
    
@@ -233,12 +235,7 @@ body{
     margin-left: 200px;
 }
 
-body {
-    background-color: #F4F7F9;
-    
-}
 
-*/
 
 .basic{
     display: flex;
