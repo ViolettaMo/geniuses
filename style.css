@@ -71,7 +71,6 @@ header ::placeholder {
 }
 
 footer {
-    font-family: "Helvetica";
     background-color: #F7FAFC;
     color: #A0AEC0;
     display: flex;
@@ -88,7 +87,6 @@ footer p {
 .Sidebar_block{
   padding: 0px;
   margin:37px 0px 0px 20px;
-  font-family: 'Helvetica', 'Inter','Neu Haas Grotesk', sans-serif;
   width:265px;
   height:727px;
   background-color:#FFFFFF;
@@ -171,7 +169,7 @@ footer p {
 
 
 
-
+/*
 section{
 display: flex;
 }
@@ -216,7 +214,7 @@ button:hover {
 }
 img{
     width: 18px;
-}
+} 
 
 body{
     font-family:url(Helvetica/helvetica_regular.otf) ;
@@ -240,7 +238,7 @@ body {
     
 }
 
-
+*/
 
 .basic{
     display: flex;
@@ -388,11 +386,7 @@ body {
 }
 
 
-@font-face {
-    font-family: Arial, Helvetica, sans-serif;
-    src: format();
-}
-main.content {
+main .content {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
