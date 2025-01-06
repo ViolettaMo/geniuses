@@ -421,14 +421,13 @@ footer p {
     margin-right: 24px;
 }
 .card.credit-card{
-    background-image: url(../geniuses/card.png);
-    image-orientation: center;
+    background-color:#151928;
     color: white;
     flex:1;
     min-height: 200px;
 }
 .card-bg{
-    background-color:linear-gradient(#313860,#151928);
+    background-color:#151928;
     position: relative;
     height:100%;
     display: flex;
