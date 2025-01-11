@@ -1,63 +1,72 @@
 
-section{
-display: flex;
-}
-h2{
-    padding-right: 300px;
-}
-
-table {
+.tab {
     border-collapse: collapse;
     margin: 20px auto;  
 }
 th, td {
-  
-    padding: 10px;
-   
+    padding: 9px;
     text-align: start;
 }
+
 button {
-    padding: 15px 25px;
+    padding: 15px 30px;
     background-color: white;
-    border:1px solid rgb(63, 116, 155);
-    color: rgb(63, 116, 155);
-    border-radius: 7px;
+    color:#3182CE;
+    border-radius: 8px;
     cursor: pointer;
+    border: 1px solid #3182CE;
+    margin-left: 45px;
+    font-size:0.5vw;
 }
 button:hover {
-    background-color:rgb(63, 116, 155);
+    background-color:rgb(167, 167, 167);
 }
+
 .block{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: flex-end;
     background-color: white;
-    border: 5px solid black;
     border-radius: 25px;
     width: 45%;
-
 }
-.ff{
+.cod{
     color:rgb(138, 152, 155);
-    font-size: 15px;
+    font-size: 12px;
+    padding-right: 200px;
 }
 img{
-    width: 18px;
+    width: 15px;
 }
 
-body{
-    font-family:url(Helvetica/helvetica_regular.otf) ;
-}
+@font-face {
+    font-family: "Helvetica";
+    src:
+      url("/Helvetica/helvetica_regular.otf") format("otf");
+  }
 .price{
-    font-size:23px;
-   
+    font-size:18px;
+    padding-right: 200px;
 }
-.name{
-    font-size: 18px;
+.month{
+    font-size: 14px;
+    padding-right: 200px;
 }
-.ogo{
+.value{
     color:rgb(138, 152, 155); 
-    font-size: 15px;
+    font-size: 12px;
     margin-right: 5px;
     margin-left: 200px;
+}
+nobr{
+    font-size: 10px;
+}
+body{
+    font-family: "Helvetica";
+}
+th:last-child{
+    text-align: right;
+}
+.costline{
+    width: 80px; 
+    height: 50px;
 }
