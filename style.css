@@ -392,6 +392,9 @@ footer p {
     padding: 20px;
 }
 
+.firstdecoration h5,h3{
+    padding: 10px;
+}
 .img{
     max-width: 5%;
     max-height: 5%;
@@ -508,20 +511,17 @@ footer p {
 
 .cnt {
     display: flex;
- /*   flex: 1;
-     justify-content: space-around; */
     display: flex;
     flex-wrap: nowrap;
     flex-flow: row nowrap;
     align-content: center;
-    }
+}
 
 .card {
     background-color: white;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    /* min-width: 250px; */
     box-sizing: border-box;
     max-height: 240px;
     margin-right: 16px;
