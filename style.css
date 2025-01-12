@@ -11,22 +11,32 @@
 }
 body {
     background-color: #F7FAFC;
-    background-image: url("./Background.png");
+    background-image: url("./images/background.png");
     background-repeat: no-repeat;
 }
+
+
+.group-zero {
+    width: 70%;
+}
+
 .group-one {
     display: flex;
     flex-direction: row;
+    /* border: 3px solid green; */
 }
 .group-two {
     display: flex;
     flex-direction: column;
     margin-left: 19px; 
-    margin-right: 32px;  
+    /*margin-right: 32px;  */
+    /* border: 3px solid yellow; */
+    width: 80%; 
 }
 .group-three {
     display: flex;
-    flex-direction: row;  
+    /* flex-direction: row;   */
+    flex-flow: row nowrap;
 }
 header {
     padding: 44px 32px;
@@ -185,13 +195,15 @@ footer p {
   font-size:10px;
 }
 .bills h2{
-    padding-right: 100px;
+    /* padding-right: 100px; */
     font-size: 14px;
 }
 
 .bills {
     border-collapse: collapse;
-    margin: 20px auto;  
+    /* margin: 20px auto;   */
+    margin: 8px;
+    width: 100%;
 }
 .bills th td {
   
@@ -199,7 +211,20 @@ footer p {
 
     text-align: start;
 }
-.bills button {
+
+.bills button:hover {
+    background-color:rgb(63, 116, 155);
+    color: #FFFFFF;
+}
+
+.middleblock{
+    display: flex;
+    justify-content: space-between;
+    min-height: 30px;
+    margin: 20px; 
+}
+
+.billsbutton{
     padding: 15px 25px;
     background-color: white;
     border:1px solid rgb(63, 116, 155);
@@ -207,20 +232,16 @@ footer p {
     border-radius: 7px;
     cursor: pointer;
 }
-.bills button:hover {
-    background-color:rgb(63, 116, 155);
-    color: #FFFFFF;
-}
+
 .block{
-    display: flex;
-    justify-content: space-between;
+
 
     background-color: white;
     border: 0px;
     border-radius: 20px;
     box-shadow: 0px 5px 10px 0px rgba(98, 98, 98, 0.5);
     width: 30%;
-    margin-right: 32px;
+    /* margin-right: 32px; */
 
 }
 .ff{
@@ -233,7 +254,7 @@ footer p {
 
 .price{
     font-size:23px;
-   
+    font-weight: bold; 
 }
 .name{
     font-size: 18px;
@@ -242,17 +263,97 @@ footer p {
     color:rgb(138, 152, 155); 
     font-size: 15px;
     margin-right: 5px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 
 
+.logopay{
+    width: 17px;
+    height: 20px;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.oplata{
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    box-shadow: 0px 5px 10px 0px rgba(98, 98, 98, 0.5);
+    margin: 20px 20px 0px 0px;
+}
+
+.twoinputs{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+
+.middlesection{
+    /* display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap; */
+    display: flex;
+    justify-content: space-between;
+    min-height: 30px;
+    margin: 20px;
+}
+
+#number{
+    background-image: url(./images/mastercard_icon.png);   
+    background-repeat: no-repeat;   
+    background-position: 10px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px 20px 10px 40px;
+    border-radius: 20px;
+    color: #A0AEC0;
+    border: 1px solid #A0AEC0;
+}
+
+#number2{
+    background-image: url(./images/visaicon.png);   
+    background-repeat: no-repeat;   
+    background-position: 10px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px 20px 10px 40px;
+    border-radius: 20px;
+    color: #A0AEC0;
+    border: 1px solid #A0AEC0;
+}
+.add{
+    border-radius: 10px;
+    background-color: #2D3748;
+    color: white;
+    padding: 10px;
+    justify-content: flex-end;
+    display: flex;
+    cursor: pointer;
+}
+
+.middlepart{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.mastercard{
+    border-radius: 20px;
+    color: #A0AEC0;
+}
 
 .basic{
     display: flex;
     justify-content: center;
     margin-top: 24px;
-    margin-right: 32px;
-    
+    /* margin-right: 32px; */
+    /* border: 5px solid black; */
 }
 
 .fourthpart{
@@ -300,6 +401,7 @@ footer p {
 
 .deletetext{
     padding: 0px 8px;
+    font-size: 13px;
 }
 
 .delete{
@@ -309,6 +411,7 @@ footer p {
     justify-content: space-between;
     margin-top: 5px;
     height: 20px;
+    cursor: pointer;
 }
 
 .fifthpart{
@@ -341,10 +444,18 @@ footer p {
 
 
 .addition{
-    
+    display:table-cell;
     vertical-align: middle;  
     text-align: center; 
     line-height: 70px;  
+    margin-bottom: 40px;
+}
+
+.addition_first{
+    display:table-cell;
+    vertical-align: middle;  
+    text-align: center; 
+    line-height: 70px; 
 }
 
 .plus{
@@ -358,6 +469,7 @@ footer p {
     text-align:center;
     vertical-align: middle;
     line-height: 70px; 
+    
 }
 
 .minus{
@@ -371,6 +483,7 @@ footer p {
 .banks{
     display: flex;
     flex-flow: column;
+    justify-content: space-evenly;
     width: 90%;
 }
 
@@ -393,27 +506,37 @@ footer p {
 }
 
 
-.content {
+.cnt {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    justify-content: space-around;
-}
+ /*   flex: 1;
+     justify-content: space-around; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    align-content: center;
+    }
+
 .card {
     background-color: white;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    min-width: 250px;
+    /* min-width: 250px; */
     box-sizing: border-box;
     max-height: 240px;
-    margin-right: 24px;
+    margin-right: 16px;
+    flex-basis: 25%;
 }
-.card.credit-card{
-    background-image: linear-gradient(#313860,#151928);
+.card-credit-card{
+    background-image: url(./images/background-card.png);
+    background-size: 100% 100%;
     color: white;
     flex:1;
     min-height: 200px;
+    border-radius: 20px;
+    padding:16px;
+    flex-basis: 50%;
+    margin-right: 16px;
 }
 .card-bg{
     position: relative;
@@ -436,10 +559,24 @@ footer p {
     justify-content: space-between;
     font-size: 0.85rem;
 }
+
+.card-content0 {
+    text-align:left;
+    position: relative;
+    border-radius: 20px;
+    min-height: 167px;
+    /* height: 80%; */
+    display: flex;
+    align-items: flex-end; 
+}
+
 .card-content {
     text-align:left;
     position: relative;
     border-radius: 20px;
+    min-height: 200px;
+    /* display: flex;
+    align-items: flex-end; */
 }
 .card-icon-container {
     display: flex;
@@ -456,11 +593,18 @@ footer p {
     background-position: center;
 
 }
-.card-icon.wallet{
-      background-image: url("../geniuses-main/зарплата.png");
+
+
+
+.card-icon-wallet{
+      background-image: url("./images/salary.png");
+      height: 75px;
+      width: 75px;
 }
-.card-icon.paypal{
-    background-image: url("../geniuses-main/счет.png");
+.card-icon-paypal{
+    background-image: url("./images/check.png");
+    height: 75px;
+    width: 75px;
 }
 .card-title {
     text-align: center;
