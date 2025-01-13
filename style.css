@@ -286,7 +286,7 @@ footer p {
     box-shadow: 0px 5px 10px 0px rgba(98, 98, 98, 0.5);
     margin: 20px 20px 0px 0px;
 }
-
+input {outline:none;}
 .twoinputs{
     display: flex;
     justify-content: space-between;
