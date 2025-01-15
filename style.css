@@ -228,76 +228,69 @@ footer p {
   text-align: center;
   font-size:10px;
 }
-.bills h2{
-    /* padding-right: 100px; */
-    font-size: 14px;
-}
-
-.bills {
+.tab {
     border-collapse: collapse;
     /* margin: 20px auto;   */
     margin: 8px;
     width: 100%;
 }
-.bills th td {
-  
-    padding: 10px;
-
+th, td {
+    padding: 9px;
     text-align: start;
 }
 
-.bills button:hover {
-    background-color:rgb(63, 116, 155);
-    color: #FFFFFF;
-}
-
-.middleblock{
-    display: flex;
-    justify-content: space-between;
-    min-height: 30px;
-    margin: 20px; 
-}
-
-.billsbutton{
-    padding: 15px 25px;
+button {
+    padding: 15px 30px;
     background-color: white;
-    border:1px solid rgb(63, 116, 155);
-    color: rgb(63, 116, 155);
-    border-radius: 7px;
+    color:#3182CE;
+    border-radius: 8px;
     cursor: pointer;
+    border: 1px solid #3182CE;
+    margin-left: 45px;
+    font-size:0.5vw;
+}
+button:hover {
+    background-color:rgb(167, 167, 167);
 }
 
 .block{
-
-
+    display: flex;
+    justify-content: flex-end;
     background-color: white;
-    border: 0px;
-    border-radius: 20px;
-    box-shadow: 0px 5px 10px 0px rgba(98, 98, 98, 0.5);
-    width: 30%;
-    /* margin-right: 32px; */
-
+    border-radius: 25px;
+    width: 45%;
 }
-.ff{
+.cod{
     color:rgb(138, 152, 155);
-    font-size: 15px;
+    font-size: 12px;
+    padding-right: 200px;
 }
-.bills img{
-    width: 18px;
-} 
-
 .price{
-    font-size:23px;
-    font-weight: bold; 
+    font-size:20px;
+    padding-right: 200px;
+    color:#2D3748;
 }
-.name{
-    font-size: 18px;
+
+.month{
+    font-size: 14px;
+    padding-right: 200px;
+    color:#2D3748;
 }
-.ogo{
+.value{
     color:rgb(138, 152, 155); 
-    font-size: 15px;
+    font-size: 12px;
     margin-right: 5px;
-    /* margin-left: 200px; */
+    margin-left: 200px;
+}
+nobr{
+    font-size: 10px;
+}
+th:last-child{
+    text-align: right;
+}
+.costline{
+    width: 80px; 
+    height: 50px;
 }
 
 
