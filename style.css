@@ -259,6 +259,7 @@ button:hover {
     background-color: white;
     border-radius: 25px;
     width: 45%;
+    box-shadow: 0px 5px 10px 0px rgba(98, 98, 98, 0.5); 
 }
 .cod{
     color:rgb(138, 152, 155);
@@ -293,6 +294,10 @@ th:last-child{
     height: 50px;
 }
 
+.bills img{
+    width: 15px;
+    height: 15px;
+}
 
 .logopay{
     width: 17px;
